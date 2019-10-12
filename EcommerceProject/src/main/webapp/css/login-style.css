@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+#main-header{
+    background: radial-gradient(rgba(29, 0, 109, 0.966), #0D90C1);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-header h1{
+    padding: 100px 0 70px 0;
+    color: white;
+    text-align: center;
+}
+
+.login-form{
+    background-color: #013082;
+    max-width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-form h2{
+    padding-top: 7%;
+    padding-bottom: 40px;
+    color: white;
+    font: normal, 20px, Verdana;
+}
+
+.login-form input{
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]{
+    background-color: rgb(6, 189, 189);
+    color: white;
+    width: 70%;
+    margin: 40px auto 10px auto;
+}
+
+.login-form input[type="submit"]:hover{
+    background-color: crimson;
+}
+
+#InvalidLogin{
+    visibility: hidden;
+    padding: 5px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 5px;
+    width: 70%;
+}
+
+.material-icons{
+    background: white;
+    padding: 5px;
+    color: black;
+    width: 30px;
+    text-align: center;
+}
+

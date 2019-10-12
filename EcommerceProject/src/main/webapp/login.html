@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/login-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>BASIC LOGIN FORM</h1>
+        <form class="login-form" action="/login" method="post">
+            <h2>LOGIN</h2>
+            <div class="form-group">
+                <i class="material-icons">person</i>
+                <input type="text" name="username" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <i class="material-icons">lock</i>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <input type="hidden" name="_csrf" value="86b9f384-885a-444b-bb58-552148a290f0" />
+            <div>
+                <input type="submit" value="LOGIN">
+            </div>
+            <a href="forgot-password.html">Forgot Password?</a>
+        </form>
+    </header>
+</body>
+
+</html>
